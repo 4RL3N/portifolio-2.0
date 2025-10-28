@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 75%;
+    max-width: 1200px;
+    height: 100%;
+    flex-direction: column;
+    color: #2E3A59;
+    background-color: #c9ddfb;
+    font-family: "Poppins", "Roboto", sans-serif;
+    border-radius: 25px;
+}
+
+.container p {
+    font-size: 1rem;
+}
+
+.container h3 {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
